@@ -9,11 +9,5 @@ local-evidence/
 .native/
 .cache/
 
-# Supplied files excluded after automatic approval review; originals retained locally.
-AGENTS.md
-admin/ARM.md
-admin/RESOURCES.md
-admin/ENVIRONMENT.json
-admin/RESOURCE_GRANTS.jsonl
-inputs/
+# Direct owner authorization permits CEDAR inputs and administrative records in the assigned private repository.
 replay-*/
