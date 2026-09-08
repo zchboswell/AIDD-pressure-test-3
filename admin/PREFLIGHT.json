@@ -1,5 +1,5 @@
 {
-  "status": "SETUP_READY_PENDING_PUSH",
+  "status": "PREFLIGHT READY",
   "time_utc": "2026-09-08T19:10:05.563645+00:00",
   "assigned_model": "GPT-6 Astra",
   "assigned_effort": "Medium",
@@ -142,12 +142,16 @@
   "private_repo_url": "https://github.com/zchboswell/AIDD-pressure-test-3",
   "repo_visibility": "PRIVATE",
   "repo_is_private": true,
-  "commit": null,
+  "commit": "b4b308bcf029f705ee3233075b818a510bc76d56",
   "operational_blocker": null,
   "scientific_work_started": false,
   "waiting_for": "supervisor GO",
   "resolved_operational_issues": [
     "Network sandbox connection failure resolved by approved escalation",
-    "Launcher stdin invocation unsupported; script file succeeded"
-  ]
+    "Launcher stdin invocation unsupported; script file succeeded",
+    "Initial broad stage/push rejected by automatic approval review; narrowed to generated setup artifacts and script, which were approved",
+    "Missing Git identity resolved with supervisor-authorized repository-local authenticated account noreply identity"
+  ],
+  "commit_note": "Verified pushed setup milestone; this record is finalized in a subsequent administrative commit.",
+  "push_verified": true
 }
