@@ -1,0 +1,17 @@
+.aidd/
+.agents/skills/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+local-evidence/
+.native/
+.cache/
+
+# Supplied guidance, environment inventory and immutable inputs remain local.
+AGENTS.md
+admin/ARM.md
+admin/RESOURCES.md
+admin/ENVIRONMENT.json
+inputs/

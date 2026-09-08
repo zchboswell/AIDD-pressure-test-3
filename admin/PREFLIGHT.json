@@ -1,0 +1,153 @@
+{
+  "status": "SETUP_READY_PENDING_PUSH",
+  "time_utc": "2026-09-08T19:10:05.563645+00:00",
+  "assigned_model": "GPT-6 Astra",
+  "assigned_effort": "Medium",
+  "observed_model": null,
+  "observed_effort": null,
+  "observation_note": "Exact model variant and effort not independently exposed; assignment retained without changes.",
+  "offered_skills": [
+    {
+      "name": "imagegen",
+      "description_summary": "Generate or edit raster images"
+    },
+    {
+      "name": "openai-docs",
+      "description_summary": "OpenAI and Codex product documentation"
+    },
+    {
+      "name": "plugin-creator",
+      "description_summary": "Create and update Codex plugins"
+    },
+    {
+      "name": "skill-creator",
+      "description_summary": "Create or update Codex skills"
+    },
+    {
+      "name": "skill-installer",
+      "description_summary": "Install Codex skills"
+    },
+    {
+      "name": "breakdown",
+      "description_summary": "Concise plan concepts and milestones"
+    },
+    {
+      "name": "deep-research-work:deep-research",
+      "description_summary": "Comprehensive cited deep research"
+    },
+    {
+      "name": "documents:documents",
+      "description_summary": "Create and edit Word documents with rendering QA"
+    },
+    {
+      "name": "pdf:pdf",
+      "description_summary": "Read, create and verify PDFs"
+    },
+    {
+      "name": "plugin-management:plugin-management",
+      "description_summary": "Discover and manage plugins and connections"
+    },
+    {
+      "name": "presentations:Presentations",
+      "description_summary": "Read, create or edit slide decks"
+    },
+    {
+      "name": "qwen-worker:qwen-ops-review",
+      "description_summary": "Independent GPT audit of Qwen ledgers and benchmarks"
+    },
+    {
+      "name": "sites:sites-building",
+      "description_summary": "Build websites with Sites"
+    },
+    {
+      "name": "sites:sites-hosting",
+      "description_summary": "Host and deploy Sites websites"
+    },
+    {
+      "name": "spreadsheets:Spreadsheets",
+      "description_summary": "Create and analyze spreadsheet files"
+    },
+    {
+      "name": "spreadsheets:excel-live-control",
+      "description_summary": "Control connected live Excel workbooks"
+    },
+    {
+      "name": "template-creator:template-creator",
+      "description_summary": "Create reusable personal artifact template skills"
+    },
+    {
+      "name": "visualize:visualize",
+      "description_summary": "Create inline visualizations and interactive tools"
+    }
+  ],
+  "guidance_inconsistent_with_arm": [],
+  "substantive_skills_read": [],
+  "input_verification": {
+    "manifest_sha256": "77934c089aa941e191e08c2459d12d6c522596ba4614f81c7fb7850aba6a7094",
+    "files_checked": 30,
+    "all_valid": true,
+    "errors": []
+  },
+  "runtime_checks": {
+    "rdkit": {
+      "import_ok": true,
+      "version": "2026.03.6",
+      "path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/rdkit/__init__.py",
+      "expected_version": "2026.03.6",
+      "version_matches": true
+    },
+    "numpy": {
+      "import_ok": true,
+      "version": "2.5.2",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/numpy/__init__.py",
+      "expected_version": "2.5.2",
+      "version_matches": true
+    },
+    "scipy": {
+      "import_ok": true,
+      "version": "1.18.0",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/scipy/__init__.py",
+      "expected_version": "1.18.0",
+      "version_matches": true
+    },
+    "sklearn": {
+      "import_ok": true,
+      "version": "1.9.0",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/sklearn/__init__.py",
+      "expected_version": "1.9.0",
+      "version_matches": true
+    },
+    "pandas": {
+      "import_ok": true,
+      "version": "3.0.5",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/pandas/__init__.py",
+      "expected_version": "3.0.5",
+      "version_matches": true
+    },
+    "matplotlib": {
+      "import_ok": true,
+      "version": "3.11.1",
+      "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/matplotlib/__init__.py",
+      "expected_version": "3.11.1",
+      "version_matches": true
+    },
+    "pymol": {
+      "import_ok": true,
+      "version": "3.2.0a",
+      "path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/pymol/__init__.py",
+      "expected_version": "3.2.0a",
+      "version_matches": true
+    }
+  },
+  "private_repo_url": "https://github.com/zchboswell/AIDD-pressure-test-3",
+  "repo_visibility": "PRIVATE",
+  "repo_is_private": true,
+  "commit": null,
+  "operational_blocker": null,
+  "scientific_work_started": false,
+  "waiting_for": "supervisor GO",
+  "resolved_operational_issues": [
+    "Network sandbox connection failure resolved by approved escalation",
+    "Launcher stdin invocation unsupported; script file succeeded"
+  ]
+}

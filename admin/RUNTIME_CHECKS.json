@@ -1,0 +1,51 @@
+{
+  "rdkit": {
+    "import_ok": true,
+    "version": "2026.03.6",
+    "path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/rdkit/__init__.py",
+    "expected_version": "2026.03.6",
+    "version_matches": true
+  },
+  "numpy": {
+    "import_ok": true,
+    "version": "2.5.2",
+    "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/numpy/__init__.py",
+    "expected_version": "2.5.2",
+    "version_matches": true
+  },
+  "scipy": {
+    "import_ok": true,
+    "version": "1.18.0",
+    "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/scipy/__init__.py",
+    "expected_version": "1.18.0",
+    "version_matches": true
+  },
+  "sklearn": {
+    "import_ok": true,
+    "version": "1.9.0",
+    "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/sklearn/__init__.py",
+    "expected_version": "1.9.0",
+    "version_matches": true
+  },
+  "pandas": {
+    "import_ok": true,
+    "version": "3.0.5",
+    "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/pandas/__init__.py",
+    "expected_version": "3.0.5",
+    "version_matches": true
+  },
+  "matplotlib": {
+    "import_ok": true,
+    "version": "3.11.1",
+    "path": "/home/zbos/.cache/molmonth-tools/gromacs-env/lib/python3.12/site-packages/matplotlib/__init__.py",
+    "expected_version": "3.11.1",
+    "version_matches": true
+  },
+  "pymol": {
+    "import_ok": true,
+    "version": "3.2.0a",
+    "path": "/home/zbos/.local/share/cedar-runtime/20260908/site-packages/pymol/__init__.py",
+    "expected_version": "3.2.0a",
+    "version_matches": true
+  }
+}
