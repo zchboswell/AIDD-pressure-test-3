@@ -1,0 +1,1 @@
+[15:16:08] SMILES Parse Error: unclosed ring for input: 'C1CC'

@@ -1,0 +1,129 @@
+{
+  "status": "pass",
+  "replay_directory": "/tmp/cedar3-final-replay",
+  "checks": [
+    {
+      "path": "curation.csv",
+      "matches": true,
+      "delivered_sha256": "8a2df41de4220fc6e8b7a8d25e9adccb0f8112c4abc500c1de004cc0281a0c6f",
+      "replay_sha256": "8a2df41de4220fc6e8b7a8d25e9adccb0f8112c4abc500c1de004cc0281a0c6f"
+    },
+    {
+      "path": "selection.csv",
+      "matches": true,
+      "delivered_sha256": "f7f22455dfa16d6a2e9c04f56f887e947f97c1535280cfd1e51585a2a63651ea",
+      "replay_sha256": "f7f22455dfa16d6a2e9c04f56f887e947f97c1535280cfd1e51585a2a63651ea"
+    },
+    {
+      "path": "predictions.csv",
+      "matches": true,
+      "delivered_sha256": "1db055ec9daeeb93b005222c590a436e1b4dfdcfeae9211638b3eb5fc5497efa",
+      "replay_sha256": "1db055ec9daeeb93b005222c590a436e1b4dfdcfeae9211638b3eb5fc5497efa"
+    },
+    {
+      "path": "experiments.csv",
+      "matches": true,
+      "delivered_sha256": "75418dfe1bb1b4c8951ddcf7fe57a285f61e08313e6ad005a0884212a9c1e0f8",
+      "replay_sha256": "75418dfe1bb1b4c8951ddcf7fe57a285f61e08313e6ad005a0884212a9c1e0f8"
+    },
+    {
+      "path": "structure_checks.json",
+      "matches": true,
+      "delivered_sha256": "c79e0181167b211a4bb0d38db8ce99957ff99bc4c1d1b721557d01583f67fbcf",
+      "replay_sha256": "c79e0181167b211a4bb0d38db8ce99957ff99bc4c1d1b721557d01583f67fbcf"
+    },
+    {
+      "path": "support/inventory_identity.csv",
+      "matches": true,
+      "delivered_sha256": "edfadef5f3beb3e6e6cf3dea89660af4bf136ac3d14bc3c5b2cf97cb4c74aeaa",
+      "replay_sha256": "edfadef5f3beb3e6e6cf3dea89660af4bf136ac3d14bc3c5b2cf97cb4c74aeaa"
+    },
+    {
+      "path": "support/decision_matrix.csv",
+      "matches": true,
+      "delivered_sha256": "7b7c169b9096d802201ea550c84b6a20c56a724d7943f7580e562440210d8b26",
+      "replay_sha256": "7b7c169b9096d802201ea550c84b6a20c56a724d7943f7580e562440210d8b26"
+    },
+    {
+      "path": "support/budget_material_schedule.csv",
+      "matches": true,
+      "delivered_sha256": "724552447f1b1066d0841b84274d191bebe666f21d195ce4d4b1400140fb3fbd",
+      "replay_sha256": "724552447f1b1066d0841b84274d191bebe666f21d195ce4d4b1400140fb3fbd"
+    },
+    {
+      "path": "support/plan_summary.json",
+      "matches": true,
+      "delivered_sha256": "59ad1875b16ee2155730d1ac4dd49cd1ced09c286781a942935ac5cd09b375bb",
+      "replay_sha256": "59ad1875b16ee2155730d1ac4dd49cd1ced09c286781a942935ac5cd09b375bb"
+    },
+    {
+      "path": "model_artifacts/model_summary.json",
+      "matches": true,
+      "delivered_sha256": "8bd27d110f34534ec4a725ce56a668d491f35617cc9bf32bce4d58ed8c0fcf07",
+      "replay_sha256": "8bd27d110f34534ec4a725ce56a668d491f35617cc9bf32bce4d58ed8c0fcf07"
+    },
+    {
+      "path": "model_artifacts/historical_out_of_fold.csv",
+      "matches": true,
+      "delivered_sha256": "93d0d8772ee60f1343ecfb4538904a4aff391def1f785fbfa7e72b69ead2c8fb",
+      "replay_sha256": "93d0d8772ee60f1343ecfb4538904a4aff391def1f785fbfa7e72b69ead2c8fb"
+    }
+  ],
+  "replay_execution": {
+    "status": "pass",
+    "input_verification_before": {
+      "manifest_sha256": "77934c089aa941e191e08c2459d12d6c522596ba4614f81c7fb7850aba6a7094",
+      "file_count": 30,
+      "all_hashes_match": true
+    },
+    "input_verification_after": {
+      "manifest_sha256": "77934c089aa941e191e08c2459d12d6c522596ba4614f81c7fb7850aba6a7094",
+      "file_count": 30,
+      "all_hashes_match": true
+    },
+    "runs": [
+      {
+        "script": "test_assay_math.py",
+        "exit_code": 0,
+        "wall_seconds": 0.028452789003495127
+      },
+      {
+        "script": "curate.py",
+        "exit_code": 0,
+        "wall_seconds": 0.1436517419933807
+      },
+      {
+        "script": "model_audit.py",
+        "exit_code": 0,
+        "wall_seconds": 4.2363511660078075
+      },
+      {
+        "script": "structure_audit.py",
+        "exit_code": 0,
+        "wall_seconds": 0.8423694779921789
+      },
+      {
+        "script": "decision.py",
+        "exit_code": 0,
+        "wall_seconds": 0.5453162909834646
+      },
+      {
+        "script": "render_pocket.py",
+        "exit_code": 0,
+        "wall_seconds": 6.114519705006387
+      },
+      {
+        "script": "validate_delivery.py",
+        "exit_code": 0,
+        "wall_seconds": 0.024791653006104752
+      }
+    ],
+    "cpu_affinity": [
+      6
+    ],
+    "threads_per_process": 1,
+    "gpu_used": false,
+    "notes": "Generated numerical/figure artifacts; hand-authored report and handoff are maintained separately. Figure SVG metadata may differ between runs."
+  },
+  "scope": "Numerical and accounting artifacts exact comparison; hand-authored interpretation and figure metadata not regenerated as text."
+}

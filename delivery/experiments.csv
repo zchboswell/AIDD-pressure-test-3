@@ -1,0 +1,25 @@
+compound_id,experiment_id,replicates,purpose
+CED-02,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-02,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-02,ENGAGE,1,Measure current cellular CDK2 endpoint; review full curves and concentration feasibility.
+CED-03,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-03,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-03,ENGAGE,2,"Measure current cellular CDK2 endpoint; review full curves and concentration feasibility. Two separately charged prospective experiments scheduled in parallel; assess consistency, not assumed calibrated intervals."
+CED-08,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-08,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-08,ENGAGE,2,"Measure current cellular CDK2 endpoint; review full curves and concentration feasibility. Two separately charged prospective experiments scheduled in parallel; assess consistency, not assumed calibrated intervals."
+CED-13,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-13,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-13,ENGAGE,1,Measure current cellular CDK2 endpoint; review full curves and concentration feasibility.
+CED-17,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-17,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-17,ENGAGE,1,Measure current cellular CDK2 endpoint; review full curves and concentration feasibility.
+CED-22,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-22,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-22,ENGAGE,1,Measure current cellular CDK2 endpoint; review full curves and concentration feasibility.
+CED-23,CDK2-E1,1,Establish matched 1mM ATP CDK2 arm; historical assay is not a substitute.
+CED-23,CDK1-B,1,Establish matched 1mM ATP CDK1 arm; calculate biochemical window jointly with CDK2-E1.
+CED-23,ENGAGE,1,Measure current cellular CDK2 endpoint; review full curves and concentration feasibility.
+CED-03,IDENTITY,1,Check VIAL-03 identity/purity before biology because STOCK-28 has a conflicting graph; STOCK-28 remains quarantined.
+CED-02,MIC,1,Prospective confirmation of HLM half-life near20min preference; supplied value22min has no uncertainty.
+CED-22,MIC,1,Prospective confirmation of HLM half-life near20min preference; supplied value22min has no uncertainty.

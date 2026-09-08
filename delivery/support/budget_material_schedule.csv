@@ -1,0 +1,8 @@
+compound_id,request_id,vial_id,handling_usd,experiments_usd,total_usd,mass_used_mg,stock_mass_mg,remaining_mass_mg,arrival_day,identity_days,completion_day
+CED-02,STOCK-02,VIAL-02,250,2250,2500,0.45,1.3,0.85,2,0,7
+CED-03,STOCK-03,VIAL-03,300,3000,3300,0.55,1.6,1.05,0,1,6
+CED-08,STOCK-08,VIAL-08,150,2800,2950,0.50,1.6,1.10,2,0,7
+CED-13,STOCK-13,VIAL-13,200,1850,2050,0.35,1.6,1.25,1,0,6
+CED-17,STOCK-17,VIAL-17,200,1850,2050,0.35,1.3,0.95,2,0,7
+CED-22,STOCK-22,VIAL-22,250,2250,2500,0.45,1.3,0.85,1,0,6
+CED-23,STOCK-23,VIAL-23,300,1850,2150,0.35,1.6,1.25,2,0,7

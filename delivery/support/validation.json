@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "activity_rows": 266,
+  "inventory_rows": 28,
+  "prediction_status_counts": {
+    "observed": 18,
+    "abstained": 6,
+    "duplicate": 2,
+    "quarantined": 2
+  },
+  "unique_compounds": 7,
+  "total_usd": "17500",
+  "compound_checks": [
+    {
+      "compound_id": "CED-02",
+      "cost_usd": "2500",
+      "mass_mg": "0.45",
+      "completion_day": 7
+    },
+    {
+      "compound_id": "CED-03",
+      "cost_usd": "3300",
+      "mass_mg": "0.55",
+      "completion_day": 6
+    },
+    {
+      "compound_id": "CED-08",
+      "cost_usd": "2950",
+      "mass_mg": "0.50",
+      "completion_day": 7
+    },
+    {
+      "compound_id": "CED-13",
+      "cost_usd": "2050",
+      "mass_mg": "0.35",
+      "completion_day": 6
+    },
+    {
+      "compound_id": "CED-17",
+      "cost_usd": "2050",
+      "mass_mg": "0.35",
+      "completion_day": 7
+    },
+    {
+      "compound_id": "CED-22",
+      "cost_usd": "2500",
+      "mass_mg": "0.45",
+      "completion_day": 6
+    },
+    {
+      "compound_id": "CED-23",
+      "cost_usd": "2150",
+      "mass_mg": "0.35",
+      "completion_day": 7
+    }
+  ],
+  "scope": "Accounting, declared endpoint, known converter sentinels, source-duplicate accounting, output numerics and fixed-frame reference values. Does not certify biological efficacy or future assay success."
+}

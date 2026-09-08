@@ -1,0 +1,29 @@
+request_id,compound_id,status,reason
+STOCK-01,CED-01,reserve,Reserve: TE65nM but CDK1 90nM and HLM14min; known narrow cross-assay profile adds less decision value than repeats of unknowns.
+STOCK-02,CED-02,advance,Advance: TE130nM/HLM22min; lactam analog adds chemistry contrast. Confirm borderline HLM and matched CDK2/CDK1 panel.
+STOCK-03,CED-03,advance,Advance provisionally: TE and CDK1 unmeasured; SOL35uM/HLM38min. Use VIAL-03 only; IDENTITY first due separate conflicting export; duplicate prospective ENGAGE.
+STOCK-04,CED-04,reserve,Reserve outside this cycle: arrival day10 exceeds day8; TE850nM also weak despite HLM55min.
+STOCK-05,CED-05,reserve,Reserve: purity72% requires IDENTITY before any new biology; TE35/CDK1 45nM and HLM8min do not justify spending on this stock.
+STOCK-06,CED-06,reserve,Reserve: TE65nM but CDK1 90nM/HLM14min and SOL3uM; potency alone insufficient.
+STOCK-07,CED-07,reserve,Reserve behind CED02/17/22: same TE130/CDK1 400/HLM22 profile but SOL8uM; no additional named decision question.
+STOCK-08,CED-08,advance,"Advance provisionally: missing TE; CDK1 1800nM/HLM38min/SOL18uM support high information value, not potency prediction. Duplicate prospective ENGAGE."
+STOCK-09,CED-09,reserve,Reserve: TE850nM weak despite HLM55min; missing CDK1 does not establish a useful window.
+STOCK-10,CED-10,reserve,Reserve: TE35nM but CDK1 45nM/HLM8min; deprioritize potency-only shortcut.
+STOCK-11,CED-11,reserve,Reserve: missing TE but CDK1 90nM/HLM14min reduce decision value versus CED08/03.
+STOCK-12,CED-12,reserve,Reserve outside this cycle: arrival day10 exceeds day8; SOL3uM also unfavorable.
+STOCK-13,CED-13,advance,Conditional advance: TE320nM misses preference but CDK1 1800nM/HLM38min offers explicit potency/window tradeoff; SOL8uM warrants concentration QC.
+STOCK-14,CED-14,reserve,Reserve: TE850nM weak and CDK1 missing despite HLM55min; not preferred over stronger current profiles.
+STOCK-15,CED-15,reserve,Reserve: TE35nM but CDK1 45nM/HLM8min; not rescued by SOL35uM.
+STOCK-16,CED-16,reserve,Reserve: missing TE but CDK1 90nM/HLM14min; lower information value than CED08/03.
+STOCK-17,CED-17,advance,"Advance: TE130/HLM22/SOL120; cyclopropyl counterpart to tertbutyl CED22. Historical IC50 700nM vs54.9nM tests applicability of old ranking, not assay contradiction."
+STOCK-18,CED-18,reserve,Reserve: historical IC50 22.5nM does not overcome current TE320nM and SOL3uM; prefer CED13 with same TE/CDK1/HLM and higher solubility.
+STOCK-19,CED-19,reserve,Reserve fallback: HLM55min/CDK1 6000nM but TE850nM misses current preference; apparent cross-assay separation is not selectivity.
+STOCK-20,CED-20,reserve,Reserve: TE35nM but CDK1 45nM/HLM8min; historical IC50143nM is contextual only.
+STOCK-21,CED-21,reserve,Reserve: TE65nM but CDK1 90nM/HLM14min; matched window unproven.
+STOCK-22,CED-22,advance,Advance leading observed anchor: TE130/HLM22/SOL70; confirm borderline stability and matched window. Compare CED17 substitution pair.
+STOCK-23,CED-23,diagnostic,"Diagnostic: deposited-ligand tautomer family/different chemotype, SOL120/HLM38; TE and CDK1 unknown. Source structure is not a biological positive control."
+STOCK-24,CED-24,reserve,Reserve structural analog: both endpoints unknown and SOL3uM versus CED23 SOL120; no supplied CED24 pose or current-window evidence.
+STOCK-25,CED-01,duplicate,same physical vial as STOCK-01; stock not additive
+STOCK-26,CED-02,duplicate,same physical vial as STOCK-02; stock not additive
+STOCK-27,CED-INVALID,quarantined,invalid SMILES
+STOCK-28,CED-03,quarantined,compound identifier has conflicting graph; differs from established inventory representative STOCK-03

@@ -1,0 +1,8 @@
+compound_id,role,cell_target_engagement_ic50_nM,cdk1_cyclinB_ic50_nM,kinetic_solubility_uM,microsomal_t_half_min,historical_CHEMBL5736732_IC50_nM,total_usd,completion_day
+CED-02,advance,130,400,18,22,,2500,7
+CED-03,advance,,,35,38,,3300,6
+CED-08,advance,,1800,18,38,,2950,7
+CED-13,advance,320,1800,8,38,,2050,6
+CED-17,advance,130,400,120,22,=700,2050,7
+CED-22,advance,130,400,70,22,=54.9,2500,6
+CED-23,diagnostic,,,120,38,,2150,7

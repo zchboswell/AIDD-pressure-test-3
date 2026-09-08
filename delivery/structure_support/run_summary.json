@@ -1,0 +1,57 @@
+{
+  "source_accession": "1H1Q",
+  "ligand_identity_chain": {
+    "component": "2A6",
+    "name": "NU6094; 2-anilino-6-cyclohexylmethoxypurine",
+    "author_chain": "A",
+    "author_residue": 1298,
+    "receptor": "Thr160-phosphorylated CDK2 chain A; cyclin A2 chain B"
+  },
+  "atom_mapping_method": "All complete element/bond/stereochemistry-preserving RDKit graph isomorphisms; choose minimum heavy-atom RMSD in original coordinate frame. 24 heavy atoms, no fitting. Explicit map passed to CalcRMS; independently verified NumPy metric and coordinate immutability; export atoms reordered using RenumberAtoms.",
+  "reference_export_fixed_frame_rmsd_A": 0.0,
+  "priority_export_fixed_frame_rmsd_A": 8.774964387392123,
+  "priority_usable_for_contacts": false,
+  "export_details": {
+    "reference": {
+      "fixed_frame_rmsd_A": 0.0,
+      "row_order_rmsd_A": 6.1519335036501595,
+      "graph_isomorphisms": 4,
+      "separately_fitted_rmsd_A": 1.1012082465927615e-06,
+      "mean_displacement_A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "displacement_scatter_rms_A": 0.0
+    },
+    "priority": {
+      "fixed_frame_rmsd_A": 8.774964387392123,
+      "row_order_rmsd_A": 10.71663593826595,
+      "graph_isomorphisms": 4,
+      "separately_fitted_rmsd_A": 0.0,
+      "mean_displacement_A": [
+        8.0,
+        -3.0,
+        2.0
+      ],
+      "displacement_scatter_rms_A": 6.280369834735101e-16
+    }
+  },
+  "evidence_paths": [
+    "analysis/structure_audit.py",
+    "delivery/structure_support/atom_maps.csv",
+    "delivery/structure_support/distance_contacts.csv",
+    "delivery/structure_support/installed_interface.txt",
+    "delivery/figures/structure_audit.png"
+  ],
+  "interpretation": "Original priority export does not preserve deposited binding-site frame. Fitted demonstration only recovers the reference molecule, not new evidence of a priority pose. Distances are geometric proximity, not proof of hydrogen bonds or selectivity.",
+  "deposited_source_resolution_A": 2.5,
+  "inventory_reference_identity": {
+    "compound_id": "CED-23",
+    "deposited_smiles": "c1ccc(Nc2nc(OCC3CCCCC3)c3[nH]cnc3n2)cc1",
+    "inventory_smiles": "c1ccc(Nc2nc(OCC3CCCCC3)c3nc[nH]c3n2)cc1",
+    "exact_graph_match": false,
+    "canonical_tautomer_match": true,
+    "interpretation": "Same tautomer family, different encoded purine proton/bond state. Canonicalization is an identity aid, not evidence of the bound protonation state."
+  }
+}

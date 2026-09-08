@@ -9,9 +9,11 @@ local-evidence/
 .native/
 .cache/
 
-# Supplied guidance, environment inventory and immutable inputs remain local.
+# Supplied files excluded after automatic approval review; originals retained locally.
 AGENTS.md
 admin/ARM.md
 admin/RESOURCES.md
 admin/ENVIRONMENT.json
+admin/RESOURCE_GRANTS.jsonl
 inputs/
+replay-*/

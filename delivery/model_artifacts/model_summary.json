@@ -1,0 +1,250 @@
+{
+  "endpoint": "historical exact IC50; CHEMBL5736732 only",
+  "original_exit_code": 0,
+  "n_eligible_rows": 122,
+  "n_canonical_chemicals": 117,
+  "n_murcko_scaffolds": 24,
+  "model_spec": {
+    "n_estimators": 80,
+    "random_state": 7,
+    "n_jobs": 1
+  },
+  "fingerprint": "Morgan radius=2, 2048 binary bits, RDKit default nonchiral fingerprint",
+  "leak_feature_mae_to_curated_label": 0.01233664512171504,
+  "leak_feature_pearson_r": 0.9996091154647285,
+  "evaluations": {
+    "random_retrospective_feature_plus_descriptors": {
+      "n": 31,
+      "mae_log10": 0.03415029455328187,
+      "r2": 0.9891922336418147
+    },
+    "random_descriptors_only": {
+      "n": 31,
+      "mae_log10": 0.3624426762406176,
+      "r2": 0.32957300299408987
+    },
+    "random_fingerprints_only": {
+      "n": 31,
+      "mae_log10": 0.3311906663952153,
+      "r2": 0.37014939606622754
+    },
+    "random_train_median": {
+      "n": 31,
+      "mae_log10": 0.4266097260482239,
+      "r2": -0.12658225777501197
+    },
+    "chemical_group": {
+      "fingerprint": {
+        "n": 122,
+        "mae_log10": 0.3304414984987893,
+        "r2": 0.34416448385953646
+      },
+      "train_median": {
+        "n": 122,
+        "mae_log10": 0.45506328146049424,
+        "r2": -0.08820410871265283
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 97,
+          "n_test": 25,
+          "fingerprint": {
+            "n": 25,
+            "mae_log10": 0.38372371041803455,
+            "r2": 0.370764334733119
+          },
+          "train_median": {
+            "n": 25,
+            "mae_log10": 0.597786798001055,
+            "r2": -0.22841768411260954
+          },
+          "nearest_train_Tanimoto_median": 0.875
+        },
+        {
+          "fold": 2,
+          "n_train": 97,
+          "n_test": 25,
+          "fingerprint": {
+            "n": 25,
+            "mae_log10": 0.3203987343866109,
+            "r2": 0.25045479222839007
+          },
+          "train_median": {
+            "n": 25,
+            "mae_log10": 0.45229825820133485,
+            "r2": -0.19504294174854464
+          },
+          "nearest_train_Tanimoto_median": 0.8493150684931506
+        },
+        {
+          "fold": 3,
+          "n_train": 98,
+          "n_test": 24,
+          "fingerprint": {
+            "n": 24,
+            "mae_log10": 0.26279954929842925,
+            "r2": 0.1991309367889169
+          },
+          "train_median": {
+            "n": 24,
+            "mae_log10": 0.3330456352083449,
+            "r2": -0.22479044680047622
+          },
+          "nearest_train_Tanimoto_median": 0.8733365400032067
+        },
+        {
+          "fold": 4,
+          "n_train": 98,
+          "n_test": 24,
+          "fingerprint": {
+            "n": 24,
+            "mae_log10": 0.3936017043675409,
+            "r2": 0.3054242669965531
+          },
+          "train_median": {
+            "n": 24,
+            "mae_log10": 0.5112893110259668,
+            "r2": -0.1260073167935416
+          },
+          "nearest_train_Tanimoto_median": 0.860994028802248
+        },
+        {
+          "fold": 5,
+          "n_train": 98,
+          "n_test": 24,
+          "fingerprint": {
+            "n": 24,
+            "mae_log10": 0.2898821503647031,
+            "r2": 0.25396035110423176
+          },
+          "train_median": {
+            "n": 24,
+            "mae_log10": 0.37506480097904493,
+            "r2": -0.0034900116807317083
+          },
+          "nearest_train_Tanimoto_median": 0.8419766020604156
+        }
+      ],
+      "nearest_train_Tanimoto_min": 0.6049382716049383,
+      "nearest_train_Tanimoto_median": 0.8551628551628552
+    },
+    "murcko_scaffold": {
+      "fingerprint": {
+        "n": 122,
+        "mae_log10": 0.35706945575863636,
+        "r2": 0.24945120290588751
+      },
+      "train_median": {
+        "n": 122,
+        "mae_log10": 0.6112756656549503,
+        "r2": -0.6469603059786211
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 56,
+          "n_test": 66,
+          "fingerprint": {
+            "n": 66,
+            "mae_log10": 0.2913830747012375,
+            "r2": -0.00037474477215804214
+          },
+          "train_median": {
+            "n": 66,
+            "mae_log10": 0.6017759446173282,
+            "r2": -1.7519150932219896
+          },
+          "nearest_train_Tanimoto_median": 0.7645811240721103
+        },
+        {
+          "fold": 2,
+          "n_train": 100,
+          "n_test": 22,
+          "fingerprint": {
+            "n": 22,
+            "mae_log10": 0.5432326038040559,
+            "r2": -0.2710519512642746
+          },
+          "train_median": {
+            "n": 22,
+            "mae_log10": 0.9345262401345327,
+            "r2": -2.2682800605791473
+          },
+          "nearest_train_Tanimoto_median": 0.7929391986550854
+        },
+        {
+          "fold": 3,
+          "n_train": 110,
+          "n_test": 12,
+          "fingerprint": {
+            "n": 12,
+            "mae_log10": 0.4076057793366024,
+            "r2": -0.7829904905122542
+          },
+          "train_median": {
+            "n": 12,
+            "mae_log10": 0.3415093092059786,
+            "r2": -0.03256105132742637
+          },
+          "nearest_train_Tanimoto_median": 0.8834770843903264
+        },
+        {
+          "fold": 4,
+          "n_train": 111,
+          "n_test": 11,
+          "fingerprint": {
+            "n": 11,
+            "mae_log10": 0.43905478863417624,
+            "r2": -0.036273257951551896
+          },
+          "train_median": {
+            "n": 11,
+            "mae_log10": 0.5256525940447371,
+            "r2": -0.11753414383196303
+          },
+          "nearest_train_Tanimoto_median": 0.8428571428571429
+        },
+        {
+          "fold": 5,
+          "n_train": 111,
+          "n_test": 11,
+          "fingerprint": {
+            "n": 11,
+            "mae_log10": 0.24174557832432414,
+            "r2": 0.35947903757897715
+          },
+          "train_median": {
+            "n": 11,
+            "mae_log10": 0.40168648520333733,
+            "r2": -1.1296317787622483
+          },
+          "nearest_train_Tanimoto_median": 0.8076923076923077
+        }
+      ],
+      "nearest_train_Tanimoto_min": 0.6049382716049383,
+      "nearest_train_Tanimoto_median": 0.7946491849751949
+    }
+  },
+  "curated_random_split_chemical_overlap": 1,
+  "original_random_split_audit": {
+    "rows": 262,
+    "train_rows": 196,
+    "test_rows": 66,
+    "shared_source_activity_ids": [
+      "28327046"
+    ],
+    "shared_canonical_chemicals": 9,
+    "assays": [
+      "CHEMBL3705366",
+      "CHEMBL5736732",
+      "CHEMBL661125",
+      "SIM-QC-CHECK"
+    ],
+    "endpoints": [
+      "IC50",
+      "Ki"
+    ],
+    "nonexact_rows": 49
+  }
+}

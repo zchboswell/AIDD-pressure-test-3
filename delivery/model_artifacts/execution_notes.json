@@ -1,0 +1,20 @@
+{
+  "execution_status": "success",
+  "replay_status": "success; separate /tmp/cedar-control-model-replay output directory",
+  "cpu_affinity": [8],
+  "OMP_NUM_THREADS": 1,
+  "OPENBLAS_NUM_THREADS": 1,
+  "MKL_NUM_THREADS": 1,
+  "gpu_used": false,
+  "replay_wall_seconds": 4.57,
+  "replay_user_cpu_seconds": 4.17,
+  "replay_system_cpu_seconds": 0.28,
+  "replay_maximum_resident_kib": 257100,
+  "replay_model_summary_sha256": "8bd27d110f34534ec4a725ce56a668d491f35617cc9bf32bce4d58ed8c0fcf07",
+  "replay_out_of_fold_sha256": "93d0d8772ee60f1343ecfb4538904a4aff391def1f785fbfa7e72b69ead2c8fb",
+  "replay_matches_original_summary_and_predictions": true,
+  "figure_QA": "PNG visually inspected; labels legible, no clipping observed",
+  "failed_attempts": ["A text-edit command using bare python failed because python was not on PATH (exit 127); no scientific execution occurred. Used apply_patch instead; all scientific runs used the supplied cedar-python launcher."],
+  "expected_diagnostics": ["RDKit rejects inventory SMILES C1CC; retained execution_stderr.txt. This is a data quarantine signal, not model failure."],
+  "remaining_jobs": []
+}

@@ -1,0 +1,13 @@
+{
+  "total_usd": "17500",
+  "unspent_usd": "500",
+  "unique_compounds": 7,
+  "advance_count": 6,
+  "diagnostic_count": 1,
+  "latest_completion_day": 7,
+  "schedule_assumption": "Arrival day plus identity first (when ordered) plus longest parallel assay. All repeats prebooked in parallel, not after seeing results.",
+  "new_experimental_runs": 26,
+  "assay_combinations": 24,
+  "all_mass_checks_pass": true,
+  "all_deadline_checks_pass": true
+}

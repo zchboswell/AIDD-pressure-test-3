@@ -1,0 +1,29 @@
+request_id,status,endpoint,assay_id,p_activity,lower,upper,reason,compound_id
+STOCK-01,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.187086643357144,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-01
+STOCK-02,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.886056647693163,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-02
+STOCK-03,abstained,cellular CDK2 engagement IC50,SIM-TE-01,,,,Unmeasured in supplied program; no validated endpoint-specific model or uncertainty coverage.,CED-03
+STOCK-04,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.070581074285707,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-04
+STOCK-05,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.455931955649724,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available. Current stock purity72%; identity/purity check required before interpreting new biological results.",CED-05
+STOCK-06,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.187086643357144,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-06
+STOCK-07,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.886056647693163,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-07
+STOCK-08,abstained,cellular CDK2 engagement IC50,SIM-TE-01,,,,Unmeasured in supplied program; no validated endpoint-specific model or uncertainty coverage.,CED-08
+STOCK-09,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.070581074285707,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-09
+STOCK-10,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.455931955649724,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-10
+STOCK-11,abstained,cellular CDK2 engagement IC50,SIM-TE-01,,,,Unmeasured in supplied program; no validated endpoint-specific model or uncertainty coverage.,CED-11
+STOCK-12,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.886056647693163,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-12
+STOCK-13,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.494850021680094,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-13
+STOCK-14,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.070581074285707,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-14
+STOCK-15,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.455931955649724,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-15
+STOCK-16,abstained,cellular CDK2 engagement IC50,SIM-TE-01,,,,Unmeasured in supplied program; no validated endpoint-specific model or uncertainty coverage.,CED-16
+STOCK-17,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.886056647693163,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-17
+STOCK-18,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.494850021680094,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-18
+STOCK-19,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.070581074285707,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-19
+STOCK-20,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.455931955649724,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-20
+STOCK-21,observed,cellular CDK2 engagement IC50,SIM-TE-01,7.187086643357144,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-21
+STOCK-22,observed,cellular CDK2 engagement IC50,SIM-TE-01,6.886056647693163,,,"Supplied simulated program observation, nominal compound ID; not a public measurement or forecast. No replicate-derived interval available.",CED-22
+STOCK-23,abstained,cellular CDK2 engagement IC50,SIM-TE-01,,,,Unmeasured in supplied program; no validated endpoint-specific model or uncertainty coverage.,CED-23
+STOCK-24,abstained,cellular CDK2 engagement IC50,SIM-TE-01,,,,Unmeasured in supplied program; no validated endpoint-specific model or uncertainty coverage.,CED-24
+STOCK-25,duplicate,cellular CDK2 engagement IC50,,,,,same physical vial as STOCK-01; stock not additive,CED-01
+STOCK-26,duplicate,cellular CDK2 engagement IC50,,,,,same physical vial as STOCK-02; stock not additive,CED-02
+STOCK-27,quarantined,cellular CDK2 engagement IC50,,,,,invalid SMILES,CED-INVALID
+STOCK-28,quarantined,cellular CDK2 engagement IC50,,,,,compound identifier has conflicting graph; differs from established inventory representative STOCK-03,CED-03

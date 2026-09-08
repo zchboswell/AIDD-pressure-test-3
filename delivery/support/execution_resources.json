@@ -1,0 +1,13 @@
+{
+  "final_replay_wall_seconds": 11.97,
+  "final_replay_user_cpu_seconds": 11.39,
+  "final_replay_system_cpu_seconds": 0.54,
+  "final_replay_max_rss_kib": 257056,
+  "cpu_affinity": [
+    6
+  ],
+  "threads": 1,
+  "gpu_used": false,
+  "outstanding_jobs": [],
+  "notes": "Measured with /usr/bin/time -v for sequential full replay. Earlier delegate runs documented separately; total historical CPU usage not instrumented exhaustively."
+}

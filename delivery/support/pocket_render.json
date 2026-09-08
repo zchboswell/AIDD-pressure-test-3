@@ -1,0 +1,8 @@
+{
+  "source": "inputs/structures/1h1q.pdb",
+  "selection": "deposited chain A, ligand 2A6 author residue1298; hinge81-83",
+  "ligand_atoms": 24,
+  "hinge_atoms": 28,
+  "pymol_version": "3.2.0a",
+  "interpretation": "Source crystal pose only. Cartoon CDK2, cyan ligand carbon, orange hinge carbon, blue nitrogen/red oxygen. Displayed proximity does not prove hydrogen bonds or CDK1 selectivity. No modeled candidate pose; no fitting."
+}

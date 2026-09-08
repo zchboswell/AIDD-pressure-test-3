@@ -1,0 +1,35 @@
+{
+  "declared_model_endpoint": "Exact pIC50 for CHEMBL5736732 only; assay-specific historical biochemical endpoint, not cellular engagement",
+  "chemical_group_method": "RDKit canonical isomeric SMILES SHA256 prefix; preserve fragments, charge, stereochemistry; no tautomer/salt normalization",
+  "row_counts": {
+    "eligible": 122,
+    "context_only": 138,
+    "duplicate": 2,
+    "quarantined": 4
+  },
+  "assay_status_counts": {
+    "CHEMBL3705366": {
+      "context_only": 36
+    },
+    "CHEMBL5736732": {
+      "eligible": 122,
+      "context_only": 4,
+      "duplicate": 2
+    },
+    "CHEMBL661125": {
+      "context_only": 94
+    },
+    "SIM-QC-CHECK": {
+      "context_only": 4,
+      "quarantined": 4
+    }
+  },
+  "source_mismatches": [],
+  "source_verified_rows": 258,
+  "inventory_counts": {
+    "valid": 24,
+    "duplicate": 2,
+    "quarantined": 2
+  },
+  "eligible_chemical_groups": 117
+}
