@@ -1,0 +1,19 @@
+{
+  "scientific_execution": "complete; curated analysis, audited models/structures, checked proposed plan and independent replay",
+  "experimental_execution": "not started; proposal only",
+  "scientific_validity_limits": [
+    "No current-endpoint model or calibrated uncertainty",
+    "No matched biochemical window observed yet",
+    "No cellular CDK1/viability/in-vivo evidence",
+    "Simulated current program readouts distinct from public activity data",
+    "Original priority export frame unusable; no main-series pose transfer"
+  ],
+  "capture_status": "generated analysis privately pushed; supplied input/admin source package excluded by approval review and remains local",
+  "capture_detail": "admin/CAPTURE_LIMITATION.json",
+  "outstanding_jobs": [],
+  "resource_use": "No GPU; delegate jobs brief, completed. Parent CPU6/1GiB used for final replay; released at freeze. Resource timing measurements in delivery/support/execution_resources.json.",
+  "frozen_utc": "2026-09-08T19:31:10.415316+00:00",
+  "active_elapsed_minutes": 18.468019433333332,
+  "repository": "https://github.com/zchboswell/AIDD-pressure-test-3",
+  "final_commit_record": "Exact final commit is reported to supervisor after this status is committed and remote-verified."
+}

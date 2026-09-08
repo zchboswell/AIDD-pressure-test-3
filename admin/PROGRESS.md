@@ -18,3 +18,5 @@
 - Full new-directory replay `/tmp/cedar3-final-replay` passed in11.97s, peakRSS257056KiB, CPU6/one thread/noGPU; all11 checked numerical outputs match exactly, all30 source hashes unchanged before/after. Five converter regression methods and independent accounting validator pass.
 - Supervisor resolved capture scope operationally: publish generated analysis only, preserve supplied local files, do not repeat rejected operation. Exact excluded list saved in CAPTURE_LIMITATION.json; no standalone source-package or AIDD capture claim.
 - Final read-only decision review found no consequential inconsistency across report, order, selection, predictions and handoff. No biological experiment has been executed.
+
+- 2026-09-08T19:31:10.415316+00:00: freeze complete after 18.468 active minutes, zero excluded blocking. Final formatting pads exact logarithmic values to at least three decimals without changing values; fresh freeze replay passes and all11 numeric artifacts match. No outstanding jobs; remaining CPU6/1GiB released. Generated analysis milestone13eee7d already pushed; final freeze records follow.

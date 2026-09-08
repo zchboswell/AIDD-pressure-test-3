@@ -12,7 +12,17 @@ def read_csv(p):
 def write_csv(p,rows,fields):
     p.parent.mkdir(parents=True,exist_ok=True)
     with p.open('w',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader()
+        for row in rows:
+            row=dict(row)
+            for key in ('p_activity','lower','upper'):
+                if key in row and row[key]!='':
+                    value=str(row[key])
+                    if 'e' not in value.lower():
+                        if '.' not in value:value+='.'
+                        value+='0'*max(0,3-len(value.split('.')[1]))
+                    row[key]=value
+            w.writerow(row)
 
 def canonical(s):
     m=Chem.MolFromSmiles(s)

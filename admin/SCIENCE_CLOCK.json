@@ -2,5 +2,9 @@
   "start_utc": "2026-09-08T19:12:42.334150+00:00",
   "planned_freeze_utc": "2026-09-08T21:12:42.334150+00:00",
   "budget_minutes": 120,
-  "blocked_intervals": []
+  "blocked_intervals": [],
+  "actual_freeze_utc": "2026-09-08T19:31:10.415316+00:00",
+  "active_elapsed_minutes": 18.468019433333332,
+  "status": "frozen_complete",
+  "excluded_blocked_minutes": 0
 }

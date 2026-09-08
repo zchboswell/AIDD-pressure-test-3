@@ -1,13 +1,19 @@
 {
-  "final_replay_wall_seconds": 11.97,
-  "final_replay_user_cpu_seconds": 11.39,
-  "final_replay_system_cpu_seconds": 0.54,
-  "final_replay_max_rss_kib": 257056,
+  "final_replay_wall_seconds": 11.65,
+  "final_replay_user_cpu_seconds": 11.13,
+  "final_replay_system_cpu_seconds": 0.51,
+  "final_replay_max_rss_kib": 257192,
   "cpu_affinity": [
     6
   ],
   "threads": 1,
   "gpu_used": false,
   "outstanding_jobs": [],
-  "notes": "Measured with /usr/bin/time -v for sequential full replay. Earlier delegate runs documented separately; total historical CPU usage not instrumented exhaustively."
+  "notes": "Measured with /usr/bin/time -v for sequential full replays. Second replay verifies display precision update with identical numeric values. Earlier delegate runs documented separately; aggregate historical CPU usage not instrumented exhaustively.",
+  "first_full_replay": {
+    "wall_seconds": 11.97,
+    "user_cpu_seconds": 11.39,
+    "system_cpu_seconds": 0.54,
+    "max_rss_kib": 257056
+  }
 }

@@ -1,12 +1,12 @@
 {
   "status": "pass",
-  "replay_directory": "/tmp/cedar3-final-replay",
+  "replay_directory": "/tmp/cedar3-freeze-replay",
   "checks": [
     {
       "path": "curation.csv",
       "matches": true,
-      "delivered_sha256": "8a2df41de4220fc6e8b7a8d25e9adccb0f8112c4abc500c1de004cc0281a0c6f",
-      "replay_sha256": "8a2df41de4220fc6e8b7a8d25e9adccb0f8112c4abc500c1de004cc0281a0c6f"
+      "delivered_sha256": "713311044d140fbf527616c87a9c871147f02c79d37ad344da70371bf1bb2509",
+      "replay_sha256": "713311044d140fbf527616c87a9c871147f02c79d37ad344da70371bf1bb2509"
     },
     {
       "path": "selection.csv",
@@ -85,37 +85,37 @@
       {
         "script": "test_assay_math.py",
         "exit_code": 0,
-        "wall_seconds": 0.028452789003495127
+        "wall_seconds": 0.025499893992673606
       },
       {
         "script": "curate.py",
         "exit_code": 0,
-        "wall_seconds": 0.1436517419933807
+        "wall_seconds": 0.14016960398294032
       },
       {
         "script": "model_audit.py",
         "exit_code": 0,
-        "wall_seconds": 4.2363511660078075
+        "wall_seconds": 4.00458197799162
       },
       {
         "script": "structure_audit.py",
         "exit_code": 0,
-        "wall_seconds": 0.8423694779921789
+        "wall_seconds": 0.8021014519908931
       },
       {
         "script": "decision.py",
         "exit_code": 0,
-        "wall_seconds": 0.5453162909834646
+        "wall_seconds": 0.5184172040026169
       },
       {
         "script": "render_pocket.py",
         "exit_code": 0,
-        "wall_seconds": 6.114519705006387
+        "wall_seconds": 6.105982521985425
       },
       {
         "script": "validate_delivery.py",
         "exit_code": 0,
-        "wall_seconds": 0.024791653006104752
+        "wall_seconds": 0.026130950020160526
       }
     ],
     "cpu_affinity": [
