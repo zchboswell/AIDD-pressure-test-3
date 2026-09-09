@@ -11,3 +11,5 @@ local-evidence/
 
 # Direct owner authorization permits CEDAR inputs and administrative records in the assigned private repository.
 replay-*/
+
+.codex/

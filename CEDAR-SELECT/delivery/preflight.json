@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-09T22:00:00.930544+00:00",
+  "manifest": "admin/R005_INPUT_MANIFEST.json",
+  "verified_files": 17,
+  "mismatches": 0,
+  "guidance": "Control assignment; no AIDD contents offered in available skill catalogue or accessed. No forbidden paths consulted. No skills used in preflight.",
+  "runtime": "Pinned cedar-python imports rdkit/numpy/scipy/sklearn/pandas and canonicalizes ethanol successfully; versions match ENVIRONMENT.json.",
+  "limits": "All probe thread variables 1; no installs; no scientific jobs or delegates started.",
+  "review": "Reviewed all four tracked handover diffs and enumerated supplied input paths. Initial commit includes only owner-authorized handover and this verification."
+}
