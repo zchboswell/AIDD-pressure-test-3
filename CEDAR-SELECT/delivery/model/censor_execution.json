@@ -25,110 +25,110 @@
       "scheme": "train_group_cv",
       "fold": 0,
       "strength": 0.25,
-      "iterations": 45,
+      "iterations": 75,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 0,
       "strength": 1,
-      "iterations": 112,
+      "iterations": 194,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 0,
       "strength": 4,
-      "iterations": 255,
+      "iterations": 250,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 1,
       "strength": 0.25,
-      "iterations": 128,
+      "iterations": 86,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 1,
       "strength": 1,
-      "iterations": 313,
+      "iterations": 84,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 1,
       "strength": 4,
-      "iterations": 338,
+      "iterations": 291,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 2,
       "strength": 0.25,
-      "iterations": 111,
+      "iterations": 75,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 2,
       "strength": 1,
-      "iterations": 153,
+      "iterations": 81,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 2,
       "strength": 4,
-      "iterations": 348,
+      "iterations": 279,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 3,
       "strength": 0.25,
-      "iterations": 47,
+      "iterations": 98,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 3,
       "strength": 1,
-      "iterations": 58,
+      "iterations": 91,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 3,
       "strength": 4,
-      "iterations": 207,
+      "iterations": 331,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 4,
       "strength": 0.25,
-      "iterations": 50,
+      "iterations": 51,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 4,
       "strength": 1,
-      "iterations": 43,
+      "iterations": 48,
       "success": true
     },
     {
       "scheme": "train_group_cv",
       "fold": 4,
       "strength": 4,
-      "iterations": 246,
+      "iterations": 251,
       "success": true
     }
   ],
-  "seconds": 0.1690692901611328,
-  "cpu_seconds": 0.757115,
-  "peak_rss_kib": 187064,
+  "seconds": 0.16474437713623047,
+  "cpu_seconds": 0.758622,
+  "peak_rss_kib": 187276,
   "interpretation": "Sensitivity analysis, not validated censored likelihood or confidence interval. Bound weight varies relative penalty; no artificial exact threshold labels."
 }

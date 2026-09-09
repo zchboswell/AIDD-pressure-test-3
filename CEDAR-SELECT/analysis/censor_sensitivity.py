@@ -10,7 +10,7 @@ from rdkit.Chem import rdFingerprintGenerator
 from sklearn.model_selection import GroupKFold
 p=argparse.ArgumentParser();p.add_argument('--base',default='CEDAR-SELECT/delivery/model');p.add_argument('--out',default='CEDAR-SELECT/delivery/model');a=p.parse_args();out=Path(a.out);out.mkdir(parents=True,exist_ok=True);t0=time.time()
 w=pd.read_csv(Path(a.base)/'paired.csv');gen=rdFingerprintGenerator.GetMorganGenerator(radius=2,fpSize=2048,includeChirality=True);fps=[gen.GetFingerprint(Chem.MolFromSmiles(s)) for s in w.canonical];K=np.array([DataStructs.BulkTanimotoSimilarity(f,fps) for f in fps]);tr=np.where(w.partition=='train')[0];te=np.where(w.partition=='development')[0]
-splits=[('development',-1,tr,te)]+[('train_group_cv',f,tr[x],tr[z]) for f,(x,z) in enumerate(GroupKFold(5).split(tr,groups=w.iloc[tr].connectivity))]
+splits=[('development',-1,tr,te)]+[('train_group_cv',f,tr[x],tr[z]) for f,(x,z) in enumerate(GroupKFold(5).split(tr,groups=w.iloc[tr].validation_group))]
 rows=[];fits=[]
 for scheme,fold,tr,te in splits:
  A=K[np.ix_(tr,tr)];B=K[np.ix_(te,tr)]; y=w.CDK1.values[tr];exact=np.isfinite(y);upper=(w.CDK2-w.delta_lower_bound).values[tr];assert np.all(exact|np.isfinite(upper))

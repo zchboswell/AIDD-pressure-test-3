@@ -11,8 +11,8 @@
   "hyperparameters": "fixed Morgan radius2 2048 chiral; kernel ridge alpha1; nearest3 similarity weighted; no tuning",
   "bounds": "CDK1 pIC50 <=5 gives delta >= CDK2-5; excluded from exact regression, inequality violation diagnostics retained",
   "bootstrap": "2000 resamples of per-compound absolute errors, fixed predictions; descriptive not external calibration",
-  "runtime_seconds": 0.3398900032043457,
-  "cpu_seconds": 1.4003189999999999,
-  "peak_rss_kib": 233372,
+  "runtime_seconds": 0.31862711906433105,
+  "cpu_seconds": 1.03907,
+  "peak_rss_kib": 234596,
   "rdkit": "2026.03.6"
 }

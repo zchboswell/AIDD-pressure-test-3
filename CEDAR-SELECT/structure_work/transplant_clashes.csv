@@ -1,0 +1,4 @@
+cdk2_chain,cdk1_chain,fit_region,ligand_atom,cdk1_resnum,cdk1_residue,cdk1_atom,distance_A
+A,A,pocket,OH,86,ASP,OD2,1.9832323089806638
+C,A,domain,C22,10,ILE,O,1.8306452584141484
+C,D,domain,C22,10,ILE,O,1.4904903657160273

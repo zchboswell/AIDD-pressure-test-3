@@ -1,0 +1,5 @@
+design_id,status,endpoint,point_prediction,lower,upper,max_public_similarity,nearest_public_compound,new_to_original_inventory,reason
+D1,abstained,prospective paired CDK2/CDK1 and cellular engagement,,,,0.9682539682539683,HC-4f081b6936afd38a189ea800,True,"Same-study selectivity ranking failed; no prospective cellular training labels. Similarity is descriptive, not validated applicability."
+D2,abstained,prospective paired CDK2/CDK1 and cellular engagement,,,,0.9692307692307692,HC-f62b975cee248388caed4d95,True,"Same-study selectivity ranking failed; no prospective cellular training labels. Similarity is descriptive, not validated applicability."
+D3,abstained,prospective paired CDK2/CDK1 and cellular engagement,,,,0.7837837837837838,HC-f62b975cee248388caed4d95,True,"Same-study selectivity ranking failed; no prospective cellular training labels. Similarity is descriptive, not validated applicability."
+D4,abstained,prospective paired CDK2/CDK1 and cellular engagement,,,,0.7837837837837838,HC-f62b975cee248388caed4d95,True,"Same-study selectivity ranking failed; no prospective cellular training labels. Similarity is descriptive, not validated applicability."

@@ -1,0 +1,8 @@
+allocation,USD_ceiling,status
+coverage,10000,1800 paid;2200 reserved;3400 proposed;2600 held
+chemistry,32000,20000 D1/D2 gated;12000 reserve not automatic
+identity_ADME,12000,identity concentration solubility HLM
+biochemistry,18000,paired replication ATP shift and orthogonal assay
+cell_engagement,20000,CDK2/CDK1/CDK9 and exposure
+phenotype,12000,existing cell models dependency cell cycle proliferation
+contingency,16000,held pending costed revision

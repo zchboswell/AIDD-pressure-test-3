@@ -1,0 +1,125 @@
+{
+  "schema": "cedar-designs-v1",
+  "rdkit_version": "2026.03.6",
+  "checked_scope": "Canonical isomeric graph equality against public_assay_context train/development/bounds and coverage analogue compounds only; no global novelty claim",
+  "designs": [
+    {
+      "design_id": "D1",
+      "name": "ethoxy/cycloheptyl",
+      "canonical_isomeric_smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCCC[C@@H](O)C1)C(=O)C21CC1",
+      "edit": "ring expansion",
+      "new_to_supplied_labeled_packet": true,
+      "worldwide_novelty_claim": false,
+      "measured_potency": null,
+      "predicted_potency": null,
+      "MW": 398.4670000000003,
+      "cLogP": 2.4138,
+      "TPSA": 116.25999999999999,
+      "stereocenters": [
+        [
+          16,
+          "R"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "priority": "conditional first pair"
+    },
+    {
+      "design_id": "D2",
+      "name": "2-fluoroethoxy/cycloheptyl",
+      "canonical_isomeric_smiles": "O=C1N([C@@H]2CCCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+      "edit": "ring expansion + fluoroethoxy",
+      "new_to_supplied_labeled_packet": true,
+      "worldwide_novelty_claim": false,
+      "measured_potency": null,
+      "predicted_potency": null,
+      "MW": 416.4570000000003,
+      "cLogP": 2.3633999999999995,
+      "TPSA": 116.26,
+      "stereocenters": [
+        [
+          3,
+          "R"
+        ],
+        [
+          8,
+          "R"
+        ]
+      ],
+      "priority": "conditional first pair"
+    },
+    {
+      "design_id": "D3",
+      "name": "1-fluoropropan-2-yloxy stereoisomer A",
+      "canonical_isomeric_smiles": "C[C@H](CF)Oc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+      "edit": "alpha-methyl fluoroethoxy A",
+      "new_to_supplied_labeled_packet": true,
+      "worldwide_novelty_claim": false,
+      "measured_potency": null,
+      "predicted_potency": null,
+      "MW": 416.4570000000003,
+      "cLogP": 2.3618000000000006,
+      "TPSA": 116.26,
+      "stereocenters": [
+        [
+          3,
+          "R"
+        ],
+        [
+          7,
+          "R"
+        ],
+        [
+          20,
+          "R"
+        ]
+      ],
+      "priority": "reserve paired diagnostic chemistry"
+    },
+    {
+      "design_id": "D4",
+      "name": "1-fluoropropan-2-yloxy stereoisomer B",
+      "canonical_isomeric_smiles": "C[C@@H](CF)Oc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+      "edit": "alpha-methyl fluoroethoxy B",
+      "new_to_supplied_labeled_packet": true,
+      "worldwide_novelty_claim": false,
+      "measured_potency": null,
+      "predicted_potency": null,
+      "MW": 416.4570000000003,
+      "cLogP": 2.3618000000000006,
+      "TPSA": 116.26,
+      "stereocenters": [
+        [
+          3,
+          "R"
+        ],
+        [
+          7,
+          "R"
+        ],
+        [
+          20,
+          "S"
+        ]
+      ],
+      "priority": "reserve paired diagnostic chemistry"
+    }
+  ],
+  "diagnostic_comparators": [
+    {
+      "example": 23,
+      "compound_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+      "canonical_isomeric_smiles": "CCOc1n[nH]cc1Nc1ncc2c(n1)N([C@@H]1CCC[C@@H](O)C1)C(=O)C21CC1",
+      "role": "existing diagnostic comparator; not new design"
+    },
+    {
+      "example": 39,
+      "compound_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+      "canonical_isomeric_smiles": "O=C1N([C@@H]2CCC[C@@H](O)C2)c2nc(Nc3c[nH]nc3OCCF)ncc2C12CC2",
+      "role": "existing diagnostic comparator; not new design"
+    }
+  ]
+}

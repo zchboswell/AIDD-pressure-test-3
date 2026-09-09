@@ -21,12 +21,23 @@ for part in ['train','development','bounds_context_only']:
   r['curation_status']='context_bound' if part=='bounds_context_only' else 'exact_training' if part=='train' else 'exposed_development'
   rows.append(r)
 df=pd.DataFrame(rows);assert df.row_id.is_unique
+# Union source leakage relationships and connectivity, including isotopologues.
+parent={s:s for s in df.canonical}
+def root(s):
+ while parent[s]!=s:s=parent[s]
+ return s
+for field in ['connectivity','leakage_group_id']:
+ for _,g in df.groupby(field):
+  members=list(g.canonical.unique()); base=root(members[0])
+  for member in members[1:]:parent[root(member)]=base
+df['validation_group']=df.canonical.map(lambda s:root(s))
+assert not set(df[df.partition=='train'].validation_group)&set(df[df.partition=='development'].validation_group)
 # Canonical stereo graphs retain source identities. Group by connectivity to keep stereoisomers together.
 assert not set(df[df.partition=='train'].connectivity)&set(df[df.partition=='development'].connectivity)
 df.to_csv(out/'curation.csv',index=False)
 wide=df.pivot(index='canonical',columns='target',values='pIC50').reset_index()
 meta=df.drop_duplicates('canonical').set_index('canonical')
-for c in ['compound_id','connectivity','partition']:wide[c]=wide.canonical.map(meta[c])
+for c in ['compound_id','connectivity','validation_group','partition']:wide[c]=wide.canonical.map(meta[c])
 wide['delta_p']=wide.CDK2-wide.CDK1
 b=df[df.curation_status=='context_bound'].set_index('canonical').bound_pIC50
 wide['delta_lower_bound']=wide.CDK2-wide.canonical.map(b)
@@ -48,10 +59,10 @@ def pred(tr,te,col,method):
  return np.array(ans)
 records=[]
 splits=[('development',-1,train,dev)]
-for fold,(tr,te) in enumerate(GroupKFold(n_splits=5).split(train,groups=wide.iloc[train].connectivity)):
+for fold,(tr,te) in enumerate(GroupKFold(n_splits=5).split(train,groups=wide.iloc[train].validation_group)):
  splits.append(('train_group_cv',fold,train[tr],train[te]))
 for scheme,fold,tr,te in splits:
- assert not set(wide.iloc[tr].connectivity)&set(wide.iloc[te].connectivity)
+ assert not set(wide.iloc[tr].validation_group)&set(wide.iloc[te].validation_group)
  for col,target in enumerate(['CDK2','CDK1','delta_p']):
   for method in ['median','nearest3','kernel_ridge']:
    estimates=pred(tr,te,col,method)

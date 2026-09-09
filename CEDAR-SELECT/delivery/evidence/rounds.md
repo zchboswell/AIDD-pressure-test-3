@@ -12,3 +12,7 @@ Independent coordinate analysis examines supplied deposited structures and artic
 
 ## Round 3 — proposed acquisition, not executed biology
 Reserve next-tranche experimental gates for independent S1/S2/S3 anchoring, prospective matched-pair synthesis only after materials/route confirmation, and cellular CDK2/CDK1 engagement. Coverage O2 recovers a failed endpoint, O1 tests independent preparation/day reproducibility; pending S2 remains funded. No oracle, purchase, laboratory measurement or simulated service invocation occurred. The eventual nomination and stop/reversal rules are in decision.md and the experiment plan.
+
+Final verification correction: source group HG-67063e15c6f16af4fa8988ac links methoxy and its deuterated analogue despite distinct connectivity strings. Initial connectivity-only grouping in milestone d378c72 missed this relation. Final models union both source leakage IDs and connectivity, rerun all dependent CV/censor outputs and retain old milestone in Git history. Corrected training delta MAE .155/R²−.158; exposed development unchanged. Recommendation unchanged. No source bytes modified.
+
+Final independent accounting audit identified that draft parent and design assay dates did not overlap despite a paired-day claim. Corrected definitive four-compound panels to shared days16–21, orthogonal checks18–22, and new-design sample retention after receipt. Early work is qualification/setup, not additional uncounted potency curves. Added schedule assertions and replayed.

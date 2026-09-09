@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "destination": "/home/zbos/Documents/ChatGPT/AIDD-pressure-test-3/CEDAR-SELECT/replay-package-check",
+  "runs": [
+    {
+      "script": "analysis/predictive.py",
+      "exit_code": 0,
+      "wall_seconds": 1.5399811267852783,
+      "stderr": ""
+    },
+    {
+      "script": "analysis/censor_sensitivity.py",
+      "exit_code": 0,
+      "wall_seconds": 0.8889367580413818,
+      "stderr": ""
+    },
+    {
+      "script": "chemistry_work/design_check.py",
+      "exit_code": 0,
+      "wall_seconds": 0.12645792961120605,
+      "stderr": ""
+    },
+    {
+      "script": "analysis/design_applicability.py",
+      "exit_code": 0,
+      "wall_seconds": 0.2876312732696533,
+      "stderr": "[18:13:10] SMILES Parse Error: unclosed ring for input: 'C1CC'\n"
+    },
+    {
+      "script": "coverage_work/reconcile.py",
+      "exit_code": 0,
+      "wall_seconds": 0.01994609832763672,
+      "stderr": ""
+    },
+    {
+      "script": "structure_work/analyze_structures.py",
+      "exit_code": 0,
+      "wall_seconds": 1.2831828594207764,
+      "stderr": ""
+    },
+    {
+      "script": "analysis/plan.py",
+      "exit_code": 0,
+      "wall_seconds": 0.02211785316467285,
+      "stderr": ""
+    }
+  ],
+  "byte_identical_csv_and_equal_json": [
+    "delivery/model/crosswalk.csv",
+    "delivery/model/analogue_pairs.csv",
+    "delivery/model/curation.csv",
+    "delivery/model/metrics.csv",
+    "delivery/model/censor_metrics.csv",
+    "delivery/model/censor_predictions.csv",
+    "delivery/model/paired.csv",
+    "delivery/model/held_out_predictions.csv",
+    "delivery/experiment_plan.csv",
+    "delivery/tranche_budget.csv",
+    "delivery/predictions.csv",
+    "structure_work/transplant_clashes.csv",
+    "structure_work/contacts.csv",
+    "delivery/designs.json",
+    "delivery/coverage_reconciliation.json",
+    "delivery/plan_validation.json",
+    "structure_work/results.json:instances",
+    "structure_work/results.json:comparisons",
+    "structure_work/results.json:method"
+  ],
+  "wall_seconds": 4.175527811050415,
+  "children_cpu_seconds": 4.161609,
+  "children_peak_rss_kib": 235896,
+  "note": "Runtime counters excluded from equality; no original outputs overwritten."
+}

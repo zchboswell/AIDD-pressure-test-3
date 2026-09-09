@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "frozen_at_utc": "2026-09-09T22:14:21.501042+00:00",
+  "elapsed_seconds_since_recorded_preflight": 860.570498,
+  "scientific_result": "Conditional spiro-lactam switch; two gated synthesis nominations and two existing diagnostic comparators; no new biology measured or external-generalization claim.",
+  "jobs_stopped": true,
+  "delegates_stopped": [
+    "structures: completed; all local jobs exited",
+    "chemistry: completed; all local jobs exited",
+    "workplan: completed including final read-only audit; all local jobs exited"
+  ],
+  "main_jobs": "All scientific subprocesses synchronous and exited; no background jobs, persistent goal or automation created. No running scientific sessions.",
+  "verification": {
+    "input_manifest": "17/17 byte-identical",
+    "clean_replay": "PASS;13 CSVs byte-identical,3 deterministic JSONs equal,structural scientific keys equal",
+    "decision_word_count": 1243,
+    "budget_material_schedule": "PASS conditional arithmetic; no purchase or verified quotation",
+    "predecessor_inputs_outputs": "unchanged",
+    "generated_figures": "visually inspected",
+    "JSON_files": "parse checked",
+    "git_whitespace": "PASS with CRLF CSV endings recognized",
+    "exclusions": "caches,replay scratch,article text/page extracts excluded"
+  },
+  "package_bytes_before_freeze_metadata": 10998911,
+  "continuation_directory_bytes_including_ignored_scratch": 56935436,
+  "prior_milestone": "d378c72",
+  "input_manifest_sha256": "e283dfc72b44926fa147e7098b608a348bf3d4bbd03ba2586dd95c533c8b7bc8",
+  "manifest_scope": "All tracked CEDAR-SELECT files plus this freeze metadata; SHA256SUMS excludes itself. Final commit binds admin manifest and conduct. No scientific additions after this freeze."
+}

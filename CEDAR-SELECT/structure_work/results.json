@@ -1,0 +1,164 @@
+{
+  "instances": [
+    {
+      "pdb": "5NEV",
+      "chain": "A",
+      "ligand": "72L",
+      "n_heavy": 32,
+      "mean_ligand_B": 115.78875,
+      "mean_contact_residue_B": 66.55992481203009,
+      "resolution_A": 2.97,
+      "rfree": 0.26119
+    },
+    {
+      "pdb": "5NEV",
+      "chain": "C",
+      "ligand": "72L",
+      "n_heavy": 32,
+      "mean_ligand_B": 129.9103125,
+      "mean_contact_residue_B": 79.4954794520548,
+      "resolution_A": 2.97,
+      "rfree": 0.26119
+    },
+    {
+      "pdb": "5LQF",
+      "chain": "A",
+      "ligand": "4SP",
+      "n_heavy": 28,
+      "mean_ligand_B": 45.311071428571424,
+      "mean_contact_residue_B": 41.63192592592593,
+      "resolution_A": 2.06,
+      "rfree": 0.25385
+    },
+    {
+      "pdb": "5LQF",
+      "chain": "D",
+      "ligand": "4SP",
+      "n_heavy": 28,
+      "mean_ligand_B": 48.513571428571424,
+      "mean_contact_residue_B": 44.9553237410072,
+      "resolution_A": 2.06,
+      "rfree": 0.25385
+    }
+  ],
+  "comparisons": [
+    {
+      "cdk2_chain": "A",
+      "cdk1_chain": "A",
+      "fit_region": "domain",
+      "conserved_anchor_CA_count": 170,
+      "anchor_CA_rmsd_A": 2.237714677462121,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 2.0338714009504955,
+      "tyr15_OH_displacement_A": 11.377980701817636,
+      "transplanted_72L_min_heavy_distance_A": 2.32806744004645,
+      "transplanted_pairs_lt2_2_A": 0,
+      "native_72L_min_heavy_distance_A": 2.7248711585998535,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "A",
+      "cdk1_chain": "A",
+      "fit_region": "pocket",
+      "conserved_anchor_CA_count": 65,
+      "anchor_CA_rmsd_A": 1.5404936724373297,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 1.931437000493019,
+      "tyr15_OH_displacement_A": 11.459256190426425,
+      "transplanted_72L_min_heavy_distance_A": 1.9832323089806638,
+      "transplanted_pairs_lt2_2_A": 1,
+      "native_72L_min_heavy_distance_A": 2.7248711585998535,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "A",
+      "cdk1_chain": "D",
+      "fit_region": "domain",
+      "conserved_anchor_CA_count": 168,
+      "anchor_CA_rmsd_A": 2.076984321386263,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 2.0912215097176317,
+      "tyr15_OH_displacement_A": 11.351480252993376,
+      "transplanted_72L_min_heavy_distance_A": 2.2466715427684325,
+      "transplanted_pairs_lt2_2_A": 0,
+      "native_72L_min_heavy_distance_A": 2.7248711585998535,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "A",
+      "cdk1_chain": "D",
+      "fit_region": "pocket",
+      "conserved_anchor_CA_count": 65,
+      "anchor_CA_rmsd_A": 1.5496463908378264,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 1.9687994737799457,
+      "tyr15_OH_displacement_A": 11.435870629586166,
+      "transplanted_72L_min_heavy_distance_A": 2.2326992263036907,
+      "transplanted_pairs_lt2_2_A": 0,
+      "native_72L_min_heavy_distance_A": 2.7248711585998535,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "C",
+      "cdk1_chain": "A",
+      "fit_region": "domain",
+      "conserved_anchor_CA_count": 170,
+      "anchor_CA_rmsd_A": 2.2243321948893633,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 2.3075456699848043,
+      "tyr15_OH_displacement_A": 10.730096827362216,
+      "transplanted_72L_min_heavy_distance_A": 1.8306452584141484,
+      "transplanted_pairs_lt2_2_A": 1,
+      "native_72L_min_heavy_distance_A": 2.632319927215576,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "C",
+      "cdk1_chain": "A",
+      "fit_region": "pocket",
+      "conserved_anchor_CA_count": 65,
+      "anchor_CA_rmsd_A": 1.5748239067227707,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 1.9050472806844383,
+      "tyr15_OH_displacement_A": 10.60786599472309,
+      "transplanted_72L_min_heavy_distance_A": 2.364006074381512,
+      "transplanted_pairs_lt2_2_A": 0,
+      "native_72L_min_heavy_distance_A": 2.632319927215576,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "C",
+      "cdk1_chain": "D",
+      "fit_region": "domain",
+      "conserved_anchor_CA_count": 168,
+      "anchor_CA_rmsd_A": 2.083209224787309,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 2.374206382020175,
+      "tyr15_OH_displacement_A": 10.726594056399753,
+      "transplanted_72L_min_heavy_distance_A": 1.4904903657160273,
+      "transplanted_pairs_lt2_2_A": 1,
+      "native_72L_min_heavy_distance_A": 2.632319927215576,
+      "native_pairs_lt2_2_A": 0
+    },
+    {
+      "cdk2_chain": "C",
+      "cdk1_chain": "D",
+      "fit_region": "pocket",
+      "conserved_anchor_CA_count": 65,
+      "anchor_CA_rmsd_A": 1.5870817672552933,
+      "loop_CA_count": 11,
+      "loop_CA_rmsd_A": 1.9456426495693686,
+      "tyr15_OH_displacement_A": 10.598094929653088,
+      "transplanted_72L_min_heavy_distance_A": 2.2579935834145446,
+      "transplanted_pairs_lt2_2_A": 0,
+      "native_72L_min_heavy_distance_A": 2.632319927215576,
+      "native_pairs_lt2_2_A": 0
+    }
+  ],
+  "resource": {
+    "wall_seconds": 1.4275214672088623,
+    "maxrss_KiB": 140344,
+    "cpu_seconds": 1.503489
+  },
+  "method": "Author chain IDs; observed standard residues; sequence aligned; fit conserved CA 26-284 (domain), or 30-90 plus 120-145 (pocket); no energy or relaxation. Heavy-atom distance only; contacts <=4 A; severe overlap <2.2 A. Crystallographic copies are not independent experiments."
+}

@@ -1,0 +1,47 @@
+{
+  "budget_ceiling": 120000,
+  "coverage_included_not_added": true,
+  "coverage_paid_reserved_proposed": 7400,
+  "coverage_hold": 2600,
+  "additional_reserve_chemistry": 12000,
+  "general_contingency": 16000,
+  "unreleased_reserve_total": 30600,
+  "material_mg": {
+    "S1": {
+      "stock": 5,
+      "planned_total": 1,
+      "remainder": 4,
+      "stock_status": "simulated supplied vial"
+    },
+    "S2": {
+      "stock": 6,
+      "planned_total": 3.2,
+      "remainder": 2.8,
+      "stock_status": "simulated supplied vial"
+    },
+    "S3": {
+      "stock": 4,
+      "planned_total": 3.2,
+      "remainder": 0.8,
+      "stock_status": "simulated supplied vial"
+    },
+    "D1": {
+      "stock": 10,
+      "planned_total": 1.2,
+      "remainder": 8.8,
+      "stock_status": "prospective target, unavailable until verified synthesis"
+    },
+    "D2": {
+      "stock": 10,
+      "planned_total": 1.2,
+      "remainder": 8.8,
+      "stock_status": "prospective target, unavailable until verified synthesis"
+    }
+  },
+  "max_finish_day": 30,
+  "coverage_parallel_capacity": "separately validated 2 lanes by coverage_work/reconcile.py",
+  "parent_capacity_assumption": "distinct chemistry, biochemical and cellular workstreams, quoted/confirmed by day5; coverage two-lane limit applies only to coverage work",
+  "curve_count_primary": 24,
+  "material_semantics": "Total mg across all listed runs per row, not per replicate; allocations are planning estimates requiring provider confirmation. Costs are category ceilings, not per-assay quotes.",
+  "checks": "PASS conditional arithmetic and scheduling; no real stock/booking verified"
+}

@@ -1,0 +1,228 @@
+{
+  "schema": "cedar-coverage-reconciliation-v1",
+  "evidence_separation": "All response and logistics records are simulated. Only analogue_evidence observations supply historical numerical biology.",
+  "retrieval": [
+    {
+      "id": "R1",
+      "status": "valid_index_hit",
+      "interpretation_and_next_action": "Scope-matched complete fictional index; no primary numerical measurement. Retrieve primary activity and context.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R2",
+      "status": "unsupported_filter_wrong_target",
+      "interpretation_and_next_action": "Executed target key unsupported; P06493 is CDK1, not requested P24941. Repeat with target_accession and verify returned target.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R3",
+      "status": "wrong_entity_namespace",
+      "interpretation_and_next_action": "Executed assay:771 differs from requested compound:771. Repeat compound namespace; numeric suffix is not identity.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R4",
+      "status": "incomplete_pagination",
+      "interpretation_and_next_action": "Page 2 missing; one of two advertised records. Retrieve and reconcile all pages before coverage claim.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R5",
+      "status": "valid_scoped_empty",
+      "interpretation_and_next_action": "Complete zero within executed compound:999 index query only. Not inactivity or universal absence.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R6",
+      "status": "service_error_unknown",
+      "interpretation_and_next_action": "HTTP503 records null is failed retrieval; retry or check an authorized independent source. Not a negative result.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R7",
+      "status": "form_index_empty",
+      "interpretation_and_next_action": "Mechanism operation valid, but annotations indexed on parent; salt-form emptiness is not absence of parent mechanism.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R8",
+      "status": "parent_annotation_only",
+      "interpretation_and_next_action": "Linked parent has simulated mechanism annotation; no potency or salt-to-parent assay transfer.",
+      "eligible_numerical_IC50": false
+    },
+    {
+      "id": "R9",
+      "status": "endpoint_mismatch",
+      "interpretation_and_next_action": "Returned percent inhibition at10uM fails requested IC50. Retrieve a concentration-response IC50; no conversion from this row.",
+      "eligible_numerical_IC50": false
+    }
+  ],
+  "financial": {
+    "unique_obligations": {
+      "OB-17": {
+        "state": "paid",
+        "amount": 1800
+      },
+      "OB-23": {
+        "state": "reserved",
+        "amount": 2200
+      }
+    },
+    "paid_usd": 1800,
+    "reserved_usd": 2200,
+    "free_before_new_usd": 6000,
+    "selected_options": [
+      "O2",
+      "O1"
+    ],
+    "new_proposed_usd": 3400,
+    "total_paid_reserved_proposed_usd": 7400,
+    "unallocated_usd": 2600,
+    "earmarked_usd": 10000,
+    "parent_tranche_usd": 120000,
+    "parent_unearmarked_usd": 110000,
+    "added_to_parent": false
+  },
+  "option_decisions": {
+    "O1": "Propose: deliberate independent preparation/day reproducibility control; not an accidental duplicate.",
+    "O2": "Propose: recover QC-failed S3 CDK1 endpoint; absence of eligible value does not imply inactivity.",
+    "O3": "Do not propose: overlaps authorized pending S2 endpoint; wait through day3 and inspect QC before considering a separately authorized repeat.",
+    "O4": "Defer: null all-in cost/duration, unverified catalogue quantity and lead time; route proposal is not experimental execution."
+  },
+  "endpoint_state": {
+    "W1": "completed-valid attestation only; numerical CDK2 value absent",
+    "W2_CDK2": "completed-valid attestation only; numerical CDK2 value absent",
+    "W2_CDK1": "pending due day3; preserve reservation",
+    "W3_CDK1": "failed QC; no eligible potency estimate",
+    "W4": "intentional repeat proposed, not yet authorized"
+  },
+  "schedule_assumption": "Conservatively occupy one lane for pending W2 from day0 through day3; new orders start only after proposed authorization. Scenario timing is not provider verification.",
+  "schedule": [
+    {
+      "work": "W2/CDK1/context-B",
+      "start": 0,
+      "end": 3,
+      "lane": 1,
+      "material_mg": 2,
+      "vial_id": "V2",
+      "cost_already_reserved": true
+    },
+    {
+      "work": "O2",
+      "start": 0,
+      "end": 3,
+      "lane": 2,
+      "material_mg": 2,
+      "vial_id": "V3"
+    },
+    {
+      "work": "O1",
+      "start": 3,
+      "end": 5,
+      "lane": 1,
+      "material_mg": 1,
+      "vial_id": "V1"
+    }
+  ],
+  "material": {
+    "V1": {
+      "total_at_cutoff_mg": 5,
+      "reserved_at_cutoff_mg": 0,
+      "free_at_cutoff_mg": 5,
+      "after_planned_work_mg": 4
+    },
+    "V2": {
+      "total_at_cutoff_mg": 6,
+      "reserved_at_cutoff_mg": 2,
+      "free_at_cutoff_mg": 4,
+      "after_planned_work_mg": 4
+    },
+    "V3": {
+      "total_at_cutoff_mg": 4,
+      "reserved_at_cutoff_mg": 0,
+      "free_at_cutoff_mg": 4,
+      "after_planned_work_mg": 2
+    }
+  },
+  "material_claims": {
+    "M1": "Unexecuted two-step retrosynthetic proposal for S4; no procedure or yield.",
+    "M2": "Listing only; stock, price and lead time unknown.",
+    "M3": "Simulated received S3 4mg is V3 inventory already counted, cost in OB-17.",
+    "M4": "Simulated historical S1 preparation with41% yield and identity attestations; not current stock, S4 feasibility or potency."
+  },
+  "public_analogue_summary": [
+    {
+      "compound_id": "CX-86095674106ea9645dc303f564019f79097466de44ab0964544704f9eaf218b6",
+      "slot": "S1",
+      "example": 12,
+      "CDK2_nM": 20.0,
+      "CDK1_nM": 2240.0,
+      "ratio_CDK1_over_CDK2": 112.0,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-258e49021abac1e9f1ad4e1beb7ac64e58f875df465959bff367489bc2e46e14",
+      "slot": "S2",
+      "example": 23,
+      "CDK2_nM": 15.0,
+      "CDK1_nM": 2430.0,
+      "ratio_CDK1_over_CDK2": 162.0,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-50e2000b801202c9f9a60dcb886334d463b73d0136959fec38cd22a23baacb33",
+      "slot": "S3",
+      "example": 39,
+      "CDK2_nM": 7.0,
+      "CDK1_nM": 1200.0,
+      "ratio_CDK1_over_CDK2": 171.42857142857142,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-afb355daba5741fcc5a22644cc0bf7d3be4fb06eea779cd7e1660d4d1fd44d38",
+      "slot": "S4",
+      "example": 41,
+      "CDK2_nM": 5.0,
+      "CDK1_nM": 730.0,
+      "ratio_CDK1_over_CDK2": 146.0,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-7f9c703edb36bed8d557609545cbc964813d538c0c5b5430c56454a960a41bcc",
+      "slot": null,
+      "example": 56,
+      "CDK2_nM": 10.0,
+      "CDK1_nM": 800.0,
+      "ratio_CDK1_over_CDK2": 80.0,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-b14aa6db21c8781b6ec8ab24159249feb3657a2d86bae38d7d43574553f113f4",
+      "slot": null,
+      "example": 69,
+      "CDK2_nM": 6.0,
+      "CDK1_nM": 800.0,
+      "ratio_CDK1_over_CDK2": 133.33333333333334,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-0378ff3a4e79a56569d097cabcfb229b91166fb0b4b4c254f7ceacd602b88814",
+      "slot": null,
+      "example": 70,
+      "CDK2_nM": 6.0,
+      "CDK1_nM": 820.0,
+      "ratio_CDK1_over_CDK2": 136.66666666666666,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    },
+    {
+      "compound_id": "CX-314e4a602dd6cfe9cc164f84085ad94168fc00e7b778bb89b51b752a0a5241ab",
+      "slot": null,
+      "example": 77,
+      "CDK2_nM": 121.0,
+      "CDK1_nM": 5820.0,
+      "ratio_CDK1_over_CDK2": 48.099173553719005,
+      "scope": "historical public paired assay; no uncertainty supplied"
+    }
+  ],
+  "biological_decision": "Prioritize S3/S2 comparative validation over acquiring S4 solely for potency. S3 versus S2 ratio difference171vs162 is small and unreplicated; S4 ratio146 despite improved potency. Test new matched paired contexts before cellular-window claims."
+}
