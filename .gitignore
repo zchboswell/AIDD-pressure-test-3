@@ -13,3 +13,7 @@ local-evidence/
 replay-*/
 
 .codex/
+
+# Continuation transient runtime caches and replay scratch
+CEDAR-SELECT/.cache/
+CEDAR-SELECT/replay-*/
